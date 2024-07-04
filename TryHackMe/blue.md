@@ -4,7 +4,7 @@ Platform: TryHackMe
 Difficulty: Easy
 ```
 
-## Walkthrought:
+## Walkthrough:
 
 You can find the machine [here](https://tryhackme.com/r/room/blue).
 
@@ -106,7 +106,7 @@ Nmap done: 1 IP address (1 host up) scanned in 230.84 seconds
 
 The scan shows that the machine is vulnerable to `ms17-010`.
 
-### Exploitation:
+### Exploit:
 
 We'll use `msfconsole` for exploitation.
 
