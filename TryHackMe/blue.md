@@ -292,6 +292,6 @@ flag{admin_documents_can_be_valuable}
 
 ---
 
-**GRACIAS ^◡^**
+Stay Tuned for more such writeups... **GRACIAS ^◡^**
 
 ---
