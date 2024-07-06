@@ -1,5 +1,5 @@
 ```jsx
-Machine: Blue
+Machine: Anthem
 Platform: TryHackMe
 Difficulty: Easy
 ```
