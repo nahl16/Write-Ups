@@ -89,26 +89,26 @@ The scan gives the answer to 2nd and 3rd questions.
 
 Open Port 80 determines there exist a website for this address. After opening the website, it shows the domain in front.
 
-<img src="Images/1.png" width="250" height="250">
+<img src="Images/1.png" width="350" height="250">
 
 *Q. 4: What is a possible password in one of the pages web crawlers check for?*
 
 **A robots.txt file tells search engine crawlers which URLs the crawler can access on your site.**
 So, when I searched the directory *robots.txt*, it displayed the password along some other directories.
 
-<img src="Images/2.png" width="250" height="250">
+<img src="Images/2.png" width="350" height="250">
 
 As we saw in the robots.txt, *CMS used by website is `Umbraco`*.
 
 In the website, there are 2 articles to go through, written by user Jane Doe. In second one, there was a poem written. I searched it on Google and found it on wikipedia. There, the name was visible that was of Admin.
 
-<img src="Images/3.png" width="250" height="250">
+<img src="Images/3.png" width="350" height="250">
 
 In the other article, an email was given. Using its format I got to know the email address of admin.
 
 **Admin Email:** `SG@anthem.com`
 
-<img src="Images/4.png" width="250" height="250">
+<img src="Images/4.png" width="350" height="250">
 
 ### Spot the Flags:
 
@@ -118,7 +118,7 @@ I was able to find all the flags present on website by using these commands:
 wget --recursive -u http://$IP
 grep -R "THM"
 ```
-<img src="Images/5.png" width="250" height="250">
+<img src="Images/5.png" width="350" height="250">
 
 ### Final Stage:
 
@@ -129,7 +129,7 @@ I accessed the windows with SG as user using `rdesktop` command. Then provided p
 rdesktop -u SG $IP
 ```
 
-<img src="Images/6.png" width="250" height="250">
+<img src="Images/6.png" width="350" height="250">
 
 We get the user.txt in the desktop containing the flag.
 
@@ -137,13 +137,13 @@ We get the user.txt in the desktop containing the flag.
 
 For admin password, I changed the view setting to display hidden files/directories, and it displayed the **backup folder** that contains **restore.txt** but it requires privelege access to open. So. I changed the security permissions and gave read & write access, and got the password.
 
-<img src="Images/7.png" width="250" height="250">
+<img src="Images/7.png" width="350" height="250">
 
 **Admin Password:** `ChangeMeBaby1MoreTime`
 
 After escalating the priveleges, I got the root flag in root.txt
 
-<img src="Images/8.png" width="250" height="250">
+<img src="Images/8.png" width="350" height="250">
 
 **Root Flag:** `THM{Y0U_4R3_1337}`
 
