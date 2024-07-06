@@ -102,7 +102,7 @@ As we saw in the robots.txt, *CMS used by website is `Umbraco`*.
 
 In the website, there are 2 articles to go through, written by user Jane Doe. In second one, there was a poem written. I searched it on Google and found it on wikipedia. There, the name was visible that was of Admin.
 
-<img src="Images/3.png" width="350" height="250">
+<img src="Images/3.png" width="350" height="200">
 
 In the other article, an email was given. Using its format I got to know the email address of admin.
 
