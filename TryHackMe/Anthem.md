@@ -118,7 +118,7 @@ I was able to find all the flags present on website by using these commands:
 wget --recursive -u http://$IP
 grep -R "THM"
 ```
-<img src="Images/5.png" width="850" height="250">
+<img src="Images/5.png" width="750" height="150">
 
 ### Final Stage:
 
