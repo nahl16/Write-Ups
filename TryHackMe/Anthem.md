@@ -148,6 +148,7 @@ After escalating the priveleges, I got the root flag in root.txt
 **Root Flag:** `THM{Y0U_4R3_1337}`
 
 
+
 ---
 
 Stay Tuned for more such writeups... **GRACIAS ^◡^**
